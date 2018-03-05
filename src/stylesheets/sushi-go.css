@@ -1,0 +1,22 @@
+.sg-board {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sg-board__placement {
+  display: flex;
+  flex-direction: row;
+}
+
+.sg-board__hand {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
